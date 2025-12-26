@@ -53,8 +53,8 @@ export default function Logo({ settings }: { settings: SETTINGS_QUERYResult }) {
       priority
     />
   ) : (
-    <span className="text-lg font-semibold tracking-tighter">
-      {settings?.siteName || "Logo"}
+    <span className="text-sm font-semibold tracking-tighter">
+      {settings?.siteName || "MBS Premium auto care"}
     </span>
   );
 }
